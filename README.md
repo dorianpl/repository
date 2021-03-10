@@ -13,9 +13,6 @@ the purpose of this project is to learn basics of automation testing.
 ## Technologies
 tbc...
 
-## To-do list:
-tbc...
-
 ## Status
 in progress.
 
