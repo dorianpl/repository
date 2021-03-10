@@ -1,7 +1,23 @@
-https://guides.github.com/features/mastering-markdown/
+# Project Name
+> Project Hedgehog2021
 
-/play vuvuzela
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Status](#status)
+* [Inspiration](#inspiration)
 
-# This is an <h1> tag
-## This is an <h2> tag
-###### This is an <h6> tag
+## General info
+the purpose of this project is to learn basics of automation testing.
+
+## Technologies
+tbc...
+
+## To-do list:
+tbc...
+
+## Status
+in progress.
+
+## Inspiration
+project inspired by DKBM.
