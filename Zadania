@@ -1,0 +1,29 @@
+co do zrobienia: 
+1. Stwórz nowy projekt lokalnie
+2. Dodaj dependencje 
+```    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-engine</artifactId>
+        <version>5.4.0</version>
+        <scope>test</scope>
+    </dependency>
+```
+3. Zaciągamy dependencje z internetu poprzez komendę:
+```mvn clean install```
+4. Sprawdz czy dependencja junita świeci się na czerwono czy nie
+5. Utwórz w folderze test w projekcie folder firstStep
+6. Utwórz w folderze FirstStep plik java FirstTest
+7. Stwórz nowy test wg tutoriala: https://junit.org/junit5/docs/current/user-guide/
+zaraz po rozpoczęciu paragrafu: 2. Writing Tests
+8. Odpal go i sprawdz czy zadziała
+9. Spróbuj dodać więcej testów podobnego typu co wykonują na przykład z System.out.println("Wpisz cos")
+10. Spróbuj wykorzystać annotacje:
+@BeforeEach
+@AfterEach
+@BeforeAll
+@AfterAll
+11. Stwórz grupę testów w jednym pliku, gdzie będą Befory, Aftery i testy i żeby coś zabawnego się pojawiało w konsoli
+12. Wykorzystując assercje Junitowe wypróbuj w testach:
+assertTrue
+assertFalse
+assertEqual
