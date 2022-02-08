@@ -27,3 +27,5 @@ zaraz po rozpoczęciu paragrafu: 2. Writing Tests
 assertTrue
 assertFalse
 assertEqual
+13. Zobacz zadanie: https://github.com/dorianpl/backbaseAssignment
+przeglądowywuj jak jest to zorganizowane. Spróbuj zaciągnąć repo i odpalić według readme. Przede wszystkim testy frontendowe. 
