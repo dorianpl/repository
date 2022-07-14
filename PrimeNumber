@@ -2,22 +2,24 @@ public class Proba2 {
     public static void main(String[] args) {
         lPierwsza(2);
     }
+
+    static int howManyNumbersToPrint() {
+        int howMany = 4;
+        return howMany;
+    }
+
     public static void lPierwsza(int currentlyCheckedNumberr) {
 
         boolean isPrimeNumber = true;
 
-         for ( int numberIndex = 1 ; numberIndex <=6;)
-        {
-            for ( int divider = 2 ; divider < currentlyCheckedNumberr ; divider++ )
-            {
-                if ( currentlyCheckedNumberr%divider == 0 )
-                {
+        for (int numberIndex = 1; numberIndex <= howManyNumbersToPrint(); ) {
+            for (int divider = 2; divider < currentlyCheckedNumberr; divider++) {
+                if (currentlyCheckedNumberr % divider == 0) {
                     isPrimeNumber = false;
                     break;
                 }
             }
-            if ( isPrimeNumber )
-            {
+            if (isPrimeNumber) {
                 System.out.println(currentlyCheckedNumberr);
 
                 numberIndex++;
