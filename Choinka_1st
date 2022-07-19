@@ -1,0 +1,28 @@
+public class Choinka_1st {
+    public static void main(String[] args) {
+        int gwiazdkiPodstawa = 9;
+        int gwiazdkiNaSzczycie = 1;
+
+        for (int gwiazdkiWRzedzie = gwiazdkiNaSzczycie;
+             gwiazdkiWRzedzie <= gwiazdkiPodstawa;
+             gwiazdkiWRzedzie = gwiazdkiWRzedzie + 2) {
+
+            int liczbaSpacji = (gwiazdkiPodstawa - gwiazdkiWRzedzie) / 2;
+
+            for (int i = 0; i < liczbaSpacji + gwiazdkiWRzedzie; i++) {
+
+                System.out.print(i < liczbaSpacji ? " " : roll());
+            }
+            System.out.println();
+        }
+    }
+    public static String roll() {
+        int random = (int)(Math.random()*99);
+        if (random < 33)
+            return "o";
+        else if (random < 66)
+            return "x";
+        else
+            return "g";
+    }
+}
