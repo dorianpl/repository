@@ -2,6 +2,8 @@ public class Choinka_1st {
     public static void main(String[] args) {
         int gwiazdkiPodstawa = 9;
         int gwiazdkiNaSzczycie = 1;
+        //Wyrzuc to jako jedną funkcję, ktora ma te parametry do podania przy wywolaniu
+        //TODO: zrobić taką funkcję, która rysuję choinkę ale jako parametry wejściowe podajemy wysokość choinki i o ile zwiększa się każdy kolejny wiersz.
 
         for (int gwiazdkiWRzedzie = gwiazdkiNaSzczycie;
              gwiazdkiWRzedzie <= gwiazdkiPodstawa;
